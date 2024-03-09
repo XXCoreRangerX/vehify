@@ -1,0 +1,21 @@
+body {
+    @apply relative antialiased;
+}
+
+table {
+    display: block;
+    max-width: fit-content;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+pre::-webkit-scrollbar {
+    display: none;
+}
+
+input[type="text"],
+input[type="email"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
